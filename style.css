@@ -1,0 +1,116 @@
+
+/* General */
+body {
+	background:#faf9f9;
+  margin: 0;
+  font-family: monospace,Arial, Helvetica, sans-serif;
+  /* font-size:18px; */
+  color:#355070;
+}
+img {
+  width: 100%;
+}
+img.rounded {
+  border-radius: 8px;
+}
+/* links pseudo */
+a:link    { color: #457b9d }
+a:visited { color: hsl(120, 100%, 5%); }
+a:hover   { color: hsl(120, 55%, 43%); }
+a:active  { color: white; }
+
+
+
+/* Header css */
+header {
+  background-color: #006d77;
+  background-image: url(images/backgrounds/subtle_brown_mini_waves.jpg);
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-family: cursive,Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  color: #d8d0c6;
+  text-align: center;
+  padding: 25px 0 0 0;
+}
+
+/* Main css */
+#hidden-title{
+  visibility: hidden;
+}
+#service-center{
+  width:400px;
+  margin:auto;
+} 
+
+h2 {
+  font-size: 28px;
+  font-family: cursive, sans-serif;
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+p {
+ font-family: 'Montserrat', sans-serif;
+}
+#my-project-space{
+  margin-bottom:20px;
+}
+#greeting{
+  font-size: 23px;
+}
+
+/* #margin-img{
+  margin-top:20px;
+} */
+/*Mobile style */
+.wrapper {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+.item-double{
+  flex:2;
+  margin: 10px;
+}
+
+
+
+/* Desktop style*/
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+
+  #about, #services{
+    background-color: #bee3dbb7;
+    padding: 20px 0 30px 0;
+    margin: 120px 0;
+  }
+}
+
+
